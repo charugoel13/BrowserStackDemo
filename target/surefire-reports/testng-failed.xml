@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="practiceDemoProject(failed)" verbose="0">
+    <classes>
+      <class name="com.bs.qa.test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bs.qa.test.LoginPageTest -->
+    </classes>
+  </test> <!-- practiceDemoProject(failed) -->
+</suite> <!-- Failed suite [Suite] -->

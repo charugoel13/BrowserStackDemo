@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <parameter name="browser" value="chrome" />
+    <test name="BrowserStackDemoTest">
+        <classes>
+            <class name="com.bs.qa.test.LoginPageTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
